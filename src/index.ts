@@ -42,7 +42,7 @@ const run = async () => {
 
 run()
     .then(() => {
-        console.log('done');
+        console.log('Готово');
         process.exit();
     })
     .catch(error => {
